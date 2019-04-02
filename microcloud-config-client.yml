@@ -16,8 +16,8 @@ eureka:
   service-url:
     defaultZone: http://admin:enjoy@localhost:7301/eureka
 info:
-  app.name: microcloud-config-client-dev2
-  company.name: enjoy2
+  app.name: microcloud-config-client-dev23
+  company.name: enjoy23
 
 ---
 server:
