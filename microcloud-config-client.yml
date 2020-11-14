@@ -13,7 +13,7 @@ spring:
 
 eureka:
  client:
-  serviceUrl:
+  service-url:
     defaultZone: http://admin:enjoy@localhost:7301/eureka
 info:
   app.name: microcloud-config-client-dev23
@@ -30,5 +30,5 @@ spring:
 
 eureka:
  client:
-  serviceUrl:
+  service-url:
     defaultZone: http://admin:enjoy@localhost:7301/eureka
