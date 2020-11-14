@@ -7,7 +7,7 @@ server:
  port: 8080
 mybatis:
  mapper-locations: # 所有的mapper映射文件
- - classpath:mapping/*.xml
+ - classpath:mapper/*.xml
 spring:
  datasource:
    type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
@@ -36,8 +36,6 @@ eureka:
 info:
   app.name: microcloud-provider-product
   company.name: enjoy
-  build.artifactId: $project.artifactId$
-  build.modelVersion: $project.modelVersion$
 
 management:
   endpoints:
@@ -80,8 +78,6 @@ eureka:
 info:
   app.name: microcloud-config-product-client
   company.name: enjoy
-  build.artifactId: $project.artifactId$
-  build.modelVersion: $project.modelVersion$
 
 management:
   endpoints:
