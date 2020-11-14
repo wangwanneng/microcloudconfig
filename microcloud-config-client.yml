@@ -1,0 +1,34 @@
+spring:
+   profiles:
+      active:
+        - dev
+---
+server:
+  port: 8201
+
+spring:
+  profiles: dev
+  application:
+      name: microconfig-test-client
+
+eureka:
+ client:
+  service-url:
+    defaultZone: http://admin:enjoy@localhost:7301/eureka
+info:
+  app.name: microcloud-config-client-dev23
+  company.name: enjoy23
+
+---
+server:
+  port: 8102
+
+spring:
+  profiles: beta
+  application:
+      name: microconfig-test-client
+
+eureka:
+ client:
+  service-url:
+    defaultZone: http://admin:enjoy@localhost:7301/eureka
